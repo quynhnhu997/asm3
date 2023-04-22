@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+  body {
+    box-sizing: border-box;
+  }
+  #nav-bar {
+    border: none;
+    height: auto;
+    display: block;
+  }
+  .nav-bar-name {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+    display: block;
+  }
+  .content-cc2 {
+    border-left: none;
+    border-top: 1px solid #d6c08d;
+    padding-top: 20px;
+  }
+  .gridpro {
+    display: grid;
+    gap: 2px;
+    grid-template-rows: repeat(3);
+  }
+  .now {
+    background: #00ccff;
+    border: 5px solid #00ccff;
+    border-radius: 45%;
+    height: 30px;
+    width: 50px;
+    box-shadow: 0 20px 10px solid #00ccff;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+  #footer a:link {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+}

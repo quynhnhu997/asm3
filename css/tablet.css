@@ -1,0 +1,48 @@
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  body {
+    box-sizing: border-box;
+  }
+  .nav-bar-name {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 20px;
+    margin-right: 10px;
+  }
+  #nav-bar a {
+    text-align: center;
+  }
+  #personal-info ul {
+    margin: 0;
+    padding: 0;
+  }
+  .content-cc {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  .project1 {
+    font-size: 14px;
+  }
+  .now {
+    background: #00ccff;
+    border: 5px solid #00ccff;
+    border-radius: 45%;
+    height: 30px;
+    width: 50px;
+    box-shadow: 0 20px 10px solid #00ccff;
+    color: white;
+    font-size: px;
+    text-align: center;
+  }
+  td {
+    font-size: 14px;
+  }
+  tr,
+  td:first-child {
+    width: 30%;
+  }
+}

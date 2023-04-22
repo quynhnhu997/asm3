@@ -1,0 +1,85 @@
+h1,
+h2 {
+  color: blue;
+}
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.419);
+}
+i {
+  font-size: 30px !important;
+  padding-right: 20px;
+}
+#goals,
+#scopes,
+#team,
+#primary,
+#timeline {
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 2px solid rgba(128, 128, 128, 0.418);
+  border-radius: 10px;
+  border-bottom: 2px solid grey !important;
+  background: white;
+}
+.timeborder {
+  border-bottom: 2px dashed rgb(90, 171, 222);
+}
+.goalsborder {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.161);
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    box-sizing: border-box;
+  }
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.825);
+    text-align: star;
+    padding: 20px;
+  }
+  .item5 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    line-height: 2;
+    border-bottom: 2px solid grey;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  #goals,
+  #scopes,
+  #team,
+  #primary,
+  #timeline {
+    display: grid;
+  }
+  .grid-container {
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #goals,
+  #scopes,
+  #team,
+  #primary,
+  #timeline {
+    display: grid;
+  }
+  .grid-container {
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+  }
+}
